@@ -16,7 +16,7 @@ More complex examples can be found in the [examples](https://github.com/denisoln
 
 ```hcl
 module "sso" {
-  source  = "dennislapchenko/sso/aws"
+  source  = "git::https://github.com/denisolnce/terraform-aws-sso.git?ref=v2.0.1"
 
   permission_sets = {
     AdministratorAccess = {
